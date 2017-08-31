@@ -1,0 +1,83 @@
+<form method="post">
+	What is your birthday?
+	<br>
+	<label> Month <input type="text" name="month" value="%(month)s"></label>
+	<label> Day <input type="text" name="day" value="%(day)s"></label>
+	<label> Year <input type="text" name="year" value="%(year)"></label>
+	<div style="color: red">%(error)s</div>
+	<br>
+	<br>
+	<input type="submit">
+</form>
+
+
+
+<!-- input tag can take an attribute name and the value in quotes can be whatever we want ie parameter -->
+
+<!--import webapp2
+
+class MainPage(webapp2.RequestHandler):
+    def get(self):
+        self.response.headers['Content-Type'] = 'text/plain'
+        self.response.write('Hello, World!')
+
+
+app = webapp2.WSGIApplication([
+    ('/', MainPage),
+], debug=True)
+
+<form action="http://www.google.com/search">, will take you to google
+type="password" is an input type
+
+Example 1 | groups
+	<input type="checkbox" name="q">
+	<input type="checkbox" name="r">
+	<input type="checkbox" name="s">
+
+Example 2 | radio buttons
+	<input type="radio" name="q">
+	<input type="radio" name="q">
+	<input type="radio" name="q">
+
+Example 3 | values
+	<input type="radio" name="q" value="one">
+	<input type="radio" name="q" value="two">
+	<input type="radio" name="q" value="three">
+
+
+Example 4 | label element
+
+	<label>
+		One
+		<input type="radio" name="q" value="one">
+	</label>
+	<label>
+		Two
+		<input type="radio" name="q" value="two">
+	</label>
+	<label>
+		Three
+		<input type="radio" name="q" value="three">
+	</label>
+	<br>
+	<input type="submit">
+
+Example 4 | drop down using option element
+	<form>
+	<select name="q">
+		<option value="one">one</option> you can use values to rename contents of that option
+		<option>two</option>
+		<option>three</option>
+	</select>
+	<br>
+	<input type="submit">
+	</form>
+
+<select name="q">
+		<option value="one">one</option>
+		<option>two</option>
+		<option>three</option>
+</select>
+
+-->
+
